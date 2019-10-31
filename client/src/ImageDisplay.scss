@@ -1,0 +1,29 @@
+.image-display {
+  width: 50%;
+
+  &__header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  &__images {
+    position: relative;
+  }
+
+  &__button {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+
+    .ion-md-add {
+      font-size: 80px;
+    }
+  }
+}

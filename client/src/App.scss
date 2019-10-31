@@ -1,0 +1,15 @@
+.treasured-app {
+  &__header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(253, 184, 63, 1);
+  }
+
+  &__main {
+    display: flex;
+  }
+
+  &__logo {
+    color: white;
+  }
+}
